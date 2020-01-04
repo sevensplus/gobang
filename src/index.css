@@ -6,8 +6,184 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+main {
+  margin: 10px;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* 畫格線*/
+.grid {
+  display: inline-block;
+  width: 20px;
+  height: -webkit-fill-available;
+  font-size: 10px;
+  margin: 0;
+  background:url("./background/grid.png") no-repeat;
+  background-size: 20px;
+}
+.row{
+  height: 20px;
+}
+.col_0 {
+  background: url("./background/left.png") no-repeat;
+  background-size: 20px;
+}
+.col_18 {
+  background:url("./background/right.png") no-repeat;
+  background-size: 20px;
+}
+.row_0 {
+  background:url("./background/top.png") no-repeat;
+  background-size: 20px;
+}
+.row_18 {
+  background:url("./background/bottom.png") no-repeat;
+  background-size: 20px;
+}
+.row_0.col_0{
+  background:url("./background/top-left.png") no-repeat;
+  background-size: 20px;
+}
+.row_0.col_18{
+  background:url("./background/top-right.png") no-repeat;
+  background-size: 20px;
+}
+.row_18.col_0{
+  background:url("./background/bottom-left.png") no-repeat;
+  background-size: 20px;
+}
+.row_18.col_18{
+  background:url("./background/bottom-right.png") no-repeat;
+  background-size: 20px;
+}
+.row_3.col_3{
+  background:url("./background/grid-dot.png") no-repeat;
+  background-size: 20px;
+}
+.row_3.col_15{
+  background:url("./background/grid-dot.png") no-repeat;
+  background-size: 20px;  
+}
+.row_15.col_3{
+  background:url("./background/grid-dot.png") no-repeat;
+  background-size: 20px;
+}
+.row_15.col_15{
+  background:url("./background/grid-dot.png") no-repeat;
+  background-size: 20px;
+}
+.row_9.col_3{
+  background:url("./background/grid-dot.png") no-repeat;
+  background-size: 20px;
+}
+.row_9.col_15{
+  background:url("./background/grid-dot.png") no-repeat;
+  background-size: 20px;
+}
+.row_3.col_9{
+  background:url("./background/grid-dot.png") no-repeat;
+  background-size: 20px;
+}
+.row_15.col_9{
+  background:url("./background/grid-dot.png") no-repeat;
+  background-size: 20px;
+}
+.row_9.col_9{
+  background:url("./background/grid-dot.png") no-repeat;
+  background-size: 20px;
+}
+/* 畫棋子 */
+.grid.white{
+  background:url("./background/grid-white.png") no-repeat;
+  background-size: 20px;
+}
+.grid.black{
+  background:url("./background/grid-black.png") no-repeat;
+  background-size: 20px;
+}
+.col_0.white {
+  background: url("./background/left-white.png") no-repeat;
+  background-size: 20px;
+}
+.col_0.black {
+  background: url("./background/left-black.png") no-repeat;
+  background-size: 20px;
+}
+.col_18.white {
+  background:url("./background/right-white.png") no-repeat;
+  background-size: 20px;
+}
+.col_18.black {
+  background:url("./background/right-black.png") no-repeat;
+  background-size: 20px;
+}
+.row_0.white {
+  background:url("./background/top-white.png") no-repeat;
+  background-size: 20px;
+}
+.row_0.black {
+  background:url("./background/top-black.png") no-repeat;
+  background-size: 20px;
+}
+.row_18.white {
+  background:url("./background/bottom-white.png") no-repeat;
+  background-size: 20px;
+}
+.row_18.black {
+  background:url("./background/bottom-black.png") no-repeat;
+  background-size: 20px;
+}
+.row_0.col_0.white{
+  background:url("./background/top-left-white.png") no-repeat;
+  background-size: 20px;
+}
+.row_0.col_0.black{
+  background:url("./background/top-left-black.png") no-repeat;
+  background-size: 20px;
+}
+.row_0.col_18.white{
+  background:url("./background/top-right-white.png") no-repeat;
+  background-size: 20px;
+}
+.row_0.col_18.black{
+  background:url("./background/top-right-black.png") no-repeat;
+  background-size: 20px;
+}
+.row_18.col_0.white{
+  background:url("./background/bottom-left-white.png") no-repeat;
+  background-size: 20px;
+}
+.row_18.col_0.black{
+  background:url("./background/bottom-left-black.png") no-repeat;
+  background-size: 20px;
+}
+.row_18.col_18.white{
+  background:url("./background/bottom-right-white.png") no-repeat;
+  background-size: 20px;
+}
+.row_18.col_18.black{
+  background:url("./background/bottom-right-black.png") no-repeat;
+  background-size: 20px;
+}
+/* 介面 */
+.stage.black{
+  background-color: #d3deed	;
+  color: black;
+}
+.stage.white{
+  background-color: #90a0b5	;
+  color: white;
+}
+.result {
+  background-color: lightpink;
+}
+.container{
+  width: fit-content;
+  margin: auto;
+  display: flex;
+}
+.state {
+  width: fit-content;
+  height: fit-content;
+  padding: 5px 15px;
+  margin-top: 180px;
 }
