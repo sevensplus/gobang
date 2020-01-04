@@ -173,6 +173,14 @@ main {
   background-color: #90a0b5	;
   color: white;
 }
+.state {
+  width: fit-content;
+  height: fit-content;
+  width: 110px;
+  padding: 5px 10px;
+  margin-top: 180px;
+  text-align: center;
+}
 .result {
   background-color: lightpink;
 }
@@ -180,10 +188,4 @@ main {
   width: fit-content;
   margin: auto;
   display: flex;
-}
-.state {
-  width: fit-content;
-  height: fit-content;
-  padding: 5px 15px;
-  margin-top: 180px;
 }
