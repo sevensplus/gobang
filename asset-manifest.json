@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gobang/static/css/main.8e6c0635.chunk.css",
+    "main.js": "/gobang/static/js/main.e7cd38c8.chunk.js",
+    "main.js.map": "/gobang/static/js/main.e7cd38c8.chunk.js.map",
+    "runtime-main.js": "/gobang/static/js/runtime-main.9bc7ba5c.js",
+    "runtime-main.js.map": "/gobang/static/js/runtime-main.9bc7ba5c.js.map",
+    "static/js/2.635a2bc7.chunk.js": "/gobang/static/js/2.635a2bc7.chunk.js",
+    "static/js/2.635a2bc7.chunk.js.map": "/gobang/static/js/2.635a2bc7.chunk.js.map",
+    "index.html": "/gobang/index.html",
+    "precache-manifest.45081c023bb6d1bb8bd2dd99e2ac028e.js": "/gobang/precache-manifest.45081c023bb6d1bb8bd2dd99e2ac028e.js",
+    "service-worker.js": "/gobang/service-worker.js",
+    "static/css/main.8e6c0635.chunk.css.map": "/gobang/static/css/main.8e6c0635.chunk.css.map",
+    "static/js/2.635a2bc7.chunk.js.LICENSE": "/gobang/static/js/2.635a2bc7.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9bc7ba5c.js",
+    "static/js/2.635a2bc7.chunk.js",
+    "static/css/main.8e6c0635.chunk.css",
+    "static/js/main.e7cd38c8.chunk.js"
+  ]
+}
