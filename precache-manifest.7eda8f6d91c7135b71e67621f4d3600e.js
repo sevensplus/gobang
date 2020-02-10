@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0223800eb581ceaa6f4bb92bc1d6804f",
+    "revision": "00085571dce6c024573738d63137ebe3",
     "url": "/gobang/index.html"
   },
   {
-    "revision": "58748ebcca30a33a1c1c",
-    "url": "/gobang/static/css/main.ce859a42.chunk.css"
+    "revision": "af77dd033762f7d01fc2",
+    "url": "/gobang/static/css/main.4ee15720.chunk.css"
   },
   {
     "revision": "1cf97b65444ea63902fd",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gobang/static/js/2.635a2bc7.chunk.js.LICENSE"
   },
   {
-    "revision": "58748ebcca30a33a1c1c",
-    "url": "/gobang/static/js/main.e7cd38c8.chunk.js"
+    "revision": "af77dd033762f7d01fc2",
+    "url": "/gobang/static/js/main.33a8d762.chunk.js"
   },
   {
     "revision": "fda097e64cee1ed4fdad",

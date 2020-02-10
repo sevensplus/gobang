@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/gobang/static/css/main.ce859a42.chunk.css",
-    "main.js": "/gobang/static/js/main.e7cd38c8.chunk.js",
-    "main.js.map": "/gobang/static/js/main.e7cd38c8.chunk.js.map",
+    "main.css": "/gobang/static/css/main.4ee15720.chunk.css",
+    "main.js": "/gobang/static/js/main.33a8d762.chunk.js",
+    "main.js.map": "/gobang/static/js/main.33a8d762.chunk.js.map",
     "runtime-main.js": "/gobang/static/js/runtime-main.9bc7ba5c.js",
     "runtime-main.js.map": "/gobang/static/js/runtime-main.9bc7ba5c.js.map",
     "static/js/2.635a2bc7.chunk.js": "/gobang/static/js/2.635a2bc7.chunk.js",
     "static/js/2.635a2bc7.chunk.js.map": "/gobang/static/js/2.635a2bc7.chunk.js.map",
     "index.html": "/gobang/index.html",
-    "precache-manifest.e5e5c7f8d55849eff3ec60cfb6e2a345.js": "/gobang/precache-manifest.e5e5c7f8d55849eff3ec60cfb6e2a345.js",
+    "precache-manifest.7eda8f6d91c7135b71e67621f4d3600e.js": "/gobang/precache-manifest.7eda8f6d91c7135b71e67621f4d3600e.js",
     "service-worker.js": "/gobang/service-worker.js",
-    "static/css/main.ce859a42.chunk.css.map": "/gobang/static/css/main.ce859a42.chunk.css.map",
+    "static/css/main.4ee15720.chunk.css.map": "/gobang/static/css/main.4ee15720.chunk.css.map",
     "static/js/2.635a2bc7.chunk.js.LICENSE": "/gobang/static/js/2.635a2bc7.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.9bc7ba5c.js",
     "static/js/2.635a2bc7.chunk.js",
-    "static/css/main.ce859a42.chunk.css",
-    "static/js/main.e7cd38c8.chunk.js"
+    "static/css/main.4ee15720.chunk.css",
+    "static/js/main.33a8d762.chunk.js"
   ]
 }
